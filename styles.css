@@ -1,0 +1,102 @@
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.caja {
+  border: 1px solid greenyellow;
+  width: 400px;
+  height: 400px;
+}
+.cuadrado {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+}
+.rosado {
+  background-color: pink;
+}
+.verde {
+  background-color: green;
+}
+.naranja {
+  background-color: orange;
+}
+.morado {
+  background-color: purple;
+}
+.fdrow {
+  display: flex;
+  flex-direction: row;
+}
+.fdrowve {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.fdcolumn {
+  display: flex;
+  flex-direction: column;
+}
+.fdcolumn {
+  display: flex;
+  flex-direction: column;
+}
+.fdcolumnrev {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.fwnowrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.fwwrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.jcstart {
+  display: flex;
+  justify-content: start;
+}
+.jccenter {
+  display: flex;
+  justify-content: center;
+}
+.jcend {
+  display: flex;
+  justify-content: end;
+}
+.jcsb {
+  display: flex;
+  justify-content: space-between;
+}
+.jcsa {
+  display: flex;
+  justify-content: space-around;
+}
+.jcse {
+  display: flex;
+  justify-content: space-evenly;
+}
+.aistart {
+  display: flex;
+  align-items: start;
+}
+.aicenter {
+  display: flex;
+  align-items: center;
+}
+.aiend {
+  display: flex;
+  align-items: end;
+}
+.gap {
+  display: flex;
+  gap: 20px;
+}
+.dflex {
+  display: flex;
+}
+.self {
+  align-self: end;
+}
